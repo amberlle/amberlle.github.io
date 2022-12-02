@@ -7,6 +7,7 @@ import {
 import './Work.css';
 import Footer from './Footer.js';
 import airbnb from './assets/airbnb.png';
+import sidetrek from './assets/sidtrek.png';
 import nick from './assets/nick.png';
 import studentportal from './assets/student-portal.png';
 import vector from './assets/vector.png';
@@ -16,23 +17,28 @@ function Work() {
   return (
       <>
     <div>
-        <div className="nav-bar-wrapper">
-      <Link to="/" className="nav-link-home">Bianca Lee</Link>
+      <div className="nav-bar-wrapper">
+      <Link to="/" className="nav-link-home">AL</Link>
       <div className="nav-bar-container">
-          <Link to="/about" className="nav-bar-link">About</Link>
         <Link to="/work" className="nav-bar-link">Work</Link>
+        <Link to="/about" className="nav-bar-link">About</Link>
+        <Link to={{ pathname: "https://drive.google.com/file/d/1hFibJCCy0yENpEFW6eYxCKSRGOxRkF2n/view?usp=sharing" }} target="_blank" className="nav-bar-link">Resume</Link>
         </div>
       </div>
       <div className="work-header-wrapper">
           <div className="work-header">
-            Other things I've worked on
+            what have i been up to?
           </div>
       </div>
       <div className="work-card-container">
-          <WorkCard image={airbnb} link="/airbnb" title="Airbnb Trips" description="Mobile / UX"/>
-          <WorkCard image={nick} link="/nickelodeon" title="Nickelodeon Multiverse" description="Mobile / UX"/>
-          <WorkCard image={studentportal} extlink="https://github.com/codebase-berkeley/teacher-portal" title="Ygnacio Valley Teacher Portal" description="Web"/>
-          <WorkCard image={vector} extlink="https://github.com/leebianca/vector-visual" title="Vector Addition Visualization" description="Web"/>
+          <WorkCard image={sidetrek} link="/airbnb" title="Reimagining the Minds+ Experience" description="UX Research // Product Design // Web Design"/>
+          <WorkCard image={nick} link="/nickelodeon" title="Moving with Virtual Reality" description="Product Design // UX Research // UX Design"/>
+          <WorkCard image={nick} link="/nickelodeon" title="The Samsung Experience for Gen-Z" description="UX Research // Business Strategy // Slide Decking"/>
+          <WorkCard image={nick} link="/nickelodeon" title="Sidetrek Homepage Redesign" description="Web Design // Web Development // Marketing"/>
+          <WorkCard image={nick} link="/nickelodeon" title="The Future of Furniture" description="Product Design // UX Research // User Testing"/>
+          <WorkCard image={nick} link="/nickelodeon" title="Improving Sotira's Features" description="UX Research // Beta Testing // Marketing"/>
+          <WorkCard image={nick} link="/nickelodeon" title="Berkeley SkyDeck Pitch Decks" description="Slide Decking // Business Strategy // Client Work"/>
+          <WorkCard image={nick} link="/nickelodeon" title="Brand Design for Appa Health" description="Brand Design // Social Media Marketing // User Testing"/>
       </div>
       <Footer/>
     </div>

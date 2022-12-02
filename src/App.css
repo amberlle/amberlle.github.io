@@ -176,8 +176,7 @@ body {
 }
 
 .nav-bar-link:hover {
-  color: #ee6c4d;
-  background-color: #ffe5df;
+  color: #8da4d6;
   border-radius: 5px;
   font-weight: 600;
 }
@@ -210,7 +209,7 @@ body {
 }
 
 .nav-link-home {
-  color: #ee6c4d;
+  color: #8da4d6;
   font-family: "Recoleta-Black", sans-serif;
   font-size: 30px;
   margin: 0 5% 0 0%;

@@ -1,12 +1,11 @@
 .work-header-wrapper {
-  padding: 50px 15% 0 15%;
-  /* width: 100%; */
+  padding: 25px 15% 0px 15%;
 }
 
 .work-header {
   font-family: "Recoleta-Black", sans-serif;
   font-size: 40px;
-  width: 300px;
+  width: 600px;
 }
 
 .work-card-container {
@@ -14,5 +13,5 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 70px 3% 0 3%;
+  padding: 30px 3% 0 3%;
 }

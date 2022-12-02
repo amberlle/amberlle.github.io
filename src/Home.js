@@ -81,16 +81,17 @@ function Home() {
   return (
     <div className="App">
       <div className="nav-bar-wrapper">
-      <Link to="/" className="nav-link-home">Bianca Lee</Link>
+      <Link to="/" className="nav-link-home">AL</Link>
       <div className="nav-bar-container">
-          <Link to="/about" className="nav-bar-link">About</Link>
         <Link to="/work" className="nav-bar-link">Work</Link>
+        <Link to="/about" className="nav-bar-link">About</Link>
+        <Link to={{ pathname: "https://drive.google.com/file/d/1hFibJCCy0yENpEFW6eYxCKSRGOxRkF2n/view?usp=sharing" }} target="_blank" className="nav-bar-link">Resume</Link>
         </div>
       </div>
       {/* <div className="landing-text-wrapper"> */}
         {/* <div className="landing-text-padding"/> */}
         <div className="landing-text landing-text-slow">
-          Hey there! I'm <p className="landing-text-red">Bianca</p>.
+          Hello! I'm <p className="landing-text-red">Amber</p>.
         </div>
       {/* </div> */}
       <div className="story-text-wrapper story-text-slow" data-rellax-zindex="5">
@@ -108,7 +109,7 @@ function Home() {
       <img className="pink-circle circle-slow" src={pinkcircle}/>
       <img className="pink-circle-2 circle-slow" src={pinkcircle}/>
       <div className="list-text-wrapper background-text-slow" data-rellax-zindex="-1">
-        <div className="list-text" >Coding<br/>Designing<br/>Writing<br/>Teaching<br/>Doing yoga<br/>Meeting new people<br/>Reading<br/>Making cold brew<br/>Traveling<br/>Eating pizza bites</div>
+        <div className="list-text" >Designer<br/>Developer<br/>Boba-Lover<br/>Doing yoga<br/>Meeting new people<br/>Reading<br/>Making cold brew<br/>Traveling<br/>Eating pizza bites</div>
       </div>
       <Experience/>
       <Footer/>

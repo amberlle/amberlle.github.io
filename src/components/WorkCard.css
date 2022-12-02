@@ -4,9 +4,9 @@
 }
 
 .card-photo:hover {
-  border-radius: 15px;
+  border-radius: 10px;
   cursor: pointer;
-  width: 95%;
+  width: 98%;
 }
 
 .card-photo-wrapper {

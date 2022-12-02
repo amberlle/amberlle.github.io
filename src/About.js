@@ -10,17 +10,18 @@ function About() {
   return (
     <div className="About">
       <div className="nav-bar-wrapper">
-        <Link to="/" className="nav-link-home">Bianca Lee</Link>
+        <Link to="/" className="nav-link-home">AL</Link>
         <div className="nav-bar-container">
-          <Link to="/about" className="nav-bar-link">About</Link>
           <Link to="/work" className="nav-bar-link">Work</Link>
+          <Link to="/about" className="nav-bar-link">About</Link>
+          <Link to={{ pathname: "https://drive.google.com/file/d/1hFibJCCy0yENpEFW6eYxCKSRGOxRkF2n/view?usp=sharing" }} target="_blank" className="nav-bar-link">Resume</Link>
         </div>
       </div>
       <div className="about-content-wrapper">
         <div className="about-image-wrapper"><img className="about-image" src={AboutPhoto}/></div>
         <div className="about-left-content">
-          <div className="about-paragraph">hey there!</div>
-          <div className="about-header">I’m Bianca.</div>
+          <div className="about-paragraph">hello!</div>
+          <div className="about-header">I’m Amber.</div>
           <div className="about-paragraph">Currently, I'm studying Computer Science, Political Economy, and Design at UC Berkeley. I'm driven by learning and growing as much as I can.</div>
           <div className="about-paragraph">On campus, I've been teaching frontend web development and design at the <a href="https://wdd.io" className="highlight-text" target="_blank">Web Design DeCal</a>, leading a team as a project manager for <a href="https://codebase.berkeley.edu" className="highlight-text" target="_blank">Berkeley Codebase</a>, and working on pro-bono graphic design projects with <a href="https://innovativedesign.club/" className="highlight-text" target="_blank">Innovative Design</a>. I've also written a semester-long opinion column called <a href="https://www.dailycal.org/author/biancalee/" className="highlight-text" target="_blank">"Head in the Cloud"</a> on the implications of tech at The Daily Californian.</div>
           <div className="about-paragraph">Last summer, I worked on Microsoft Teams integrations at <a href="https://coda.io/" className="highlight-text" target="_blank">Coda</a> as a <a href="https://fellows.kleinerperkins.com/meet-the-fellows/2021/" className="highlight-text" target="_blank">Kleiner Perkins engineering fellow</a>. I'm excited to rejoin the team after I graduate.</div>
