@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: -300px;
+  margin-top: 50px;
 }
 
 .row {
@@ -13,28 +13,60 @@
   flex: 50%;
 }
 
+.position {
+  margin-top: 125px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.text {
+  margin-left: 175px;
+  margin-right: 150px;
+}
+
 .company {
   color: #000;
   font-family: "Recoleta-Black", sans-serif;
-  font-size: 35px;
+  font-size: 37px;
+  display: flex;
+  width: 400px;
   display: flex;
   text-align: left;
+  flex-wrap: wrap;
 }
 
 .role {
   color: #000;
-  font-family: Circular-Medium, sans-serif;
-  font-size: 25px;
+  font-family: "Recoleta-Black", sans-serif;
+  font-size: 20px;
   display: flex;
-  text-align: left;
+  width: 400px;
+  display: flex;
+  margin-top: -15px;
+  flex-wrap: wrap;
 }
 
-.description {
+.project-description {
   color: #000;
   font-family: Circular-Medium, sans-serif;
   font-size: 15px;
+  width: 300px;
   display: flex;
   text-align: left;
+  margin-top: -5px;
+  flex-wrap: wrap;
+}
+
+.skills {
+  color: #000;
+  font-family: Circular-Medium, sans-serif;
+  font-size: 12px;
+  width: 300px;
+  display: flex;
+  text-align: left;
+  font-style: italic;
+  margin-top: 0px;
 }
 
 @media (max-width: 900px) {

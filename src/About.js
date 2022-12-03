@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import AboutPhoto from "./assets/about.jpg";
 import Footer from './Footer.js';
 import "./About.css";
@@ -13,7 +13,7 @@ function About() {
         <Link to="/" className="nav-link-home">AL</Link>
         <div className="nav-bar-container">
           <Link to="/work" className="nav-bar-link">Work</Link>
-          <Link to="/about" className="nav-bar-link">About</Link>
+          <Link to="/About/about" className="nav-bar-link">About</Link>
           <Link to={{ pathname: "https://drive.google.com/file/d/1hFibJCCy0yENpEFW6eYxCKSRGOxRkF2n/view?usp=sharing" }} target="_blank" className="nav-bar-link">Resume</Link>
         </div>
       </div>

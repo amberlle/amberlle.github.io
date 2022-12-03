@@ -1,84 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import {
-  BrowserRouter as Router,
-  Link
-} from "react-router-dom";
-import Rellax from 'rellax';
+import { BrowserRouter as Router, Link } from "react-router-dom";
 import Footer from './Footer.js';
 import Experience from './components/Experience/Experience';
-import pinkcircle from './assets/pink-circle.png';
-import yellowcircle from './assets/yellow-circle.png';
 import logo from './assets/logo.png';
 import './App.css';
 
 
 function Home() {
-  // const backgroundFontSize = useScrollChange();
-
-
-  useEffect(() => {
-    new Rellax(".background-text-slow", { 
-      speed: 10,
-      center: false,
-      wrapper: null,
-      round: true,
-      vertical: true,
-      horizontal: false
-    });
-
-    new Rellax(".landing-text-slow", { 
-      speed: 0,
-      center: false,
-      wrapper: null,
-      round: true,
-      vertical: true,
-      horizontal: false,
-    });
-
-    new Rellax(".story-text-slow", { 
-      speed: 3,
-      center: false,
-      wrapper: null,
-      round: true,
-      vertical: true,
-      horizontal: false,
-    });
-
-    new Rellax(".story-text-slowish", { 
-      speed: 5,
-      center: false,
-      wrapper: null,
-      round: true,
-      vertical: true,
-      horizontal: false,
-    });
-
-    new Rellax(".circle-slow", { 
-      speed: 5,
-      center: false,
-      wrapper: null,
-      round: true,
-      vertical: true,
-      horizontal: false,
-    });
-
-    new Rellax(".red-circle-slow", { 
-      speed: 8,
-      center: false,
-      wrapper: null,
-      round: true,
-      vertical: true,
-      horizontal: false,
-    });
-    
-    //     window.addEventListener('scroll', () => {
-    //   document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
-    // }, false);
-  }, []);
-
-
-  // setHidden(document.documentElement.scrollTop > 1100);
-
   return (
     <div className="App">
       <div className="nav-bar-wrapper">

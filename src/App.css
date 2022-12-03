@@ -290,43 +290,6 @@ body {
   .logo {
     display:none;
   }
-  .pink-circle {
-    display: none;
-  }
-
-  .pink-circle-2 {
-    display: none;
-  }
-
-  .yellow-circle {
-    display: none;
-  }
-
-  .yellow-circle-2 {
-    display: none;
-  }
-}
-.story-text-wrapper {
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  margin-left: 18%;
-  padding-top: 680px;
-  position: absolute;
-  z-index: 3;
-}
-
-.story-text-wrapper-2 {
-  /* width: 100%; */
-  text-align: center;
-  z-index: 2;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  margin-left: 50%;
-  padding-top: 1100px;
-  position: absolute;
 }
 
 .style-typist {

@@ -1,5 +1,5 @@
 import React from 'react';
-import WorkCard from './components/WorkCard.js';
+import WorkCard from './WorkCard/WorkCard.js';
 import {
   BrowserRouter as Router,
   Link
