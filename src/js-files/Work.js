@@ -1,20 +1,16 @@
 import React from 'react';
 import WorkCard from '../WorkCard/WorkCard.js';
-import {
-  BrowserRouter as Router,
-  Link
-} from "react-router-dom";
-import './Work.css';
+import { BrowserRouter as Router, Link } from "react-router-dom";
+import '../css-files/Work.css';
 import Footer from './Footer.js';
-import sidetrek from './assets/sidetrek.png';
-import moving from './assets/moving.png';
-import sotira from './assets/sotira.png';
-import skydeck from './assets/skydeck.png';
-import appa from './assets/appa.png';
-import mod from './assets/mod.png';
-import samsung from './assets/samsung.png';
-import minds from './assets/minds.png';
-import Working from './Working';
+import sidetrek from '../assets/sidetrek.png';
+import moving from '../assets/moving.png';
+import sotira from '../assets/sotira.png';
+import skydeck from '../assets/skydeck.png';
+import appa from '../assets/appa.png';
+import mod from '../assets/mod.png';
+import samsung from '../assets/samsung.png';
+import minds from '../assets/minds.png';
 
 
 function Work() {

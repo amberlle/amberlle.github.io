@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
-import Amber from "./assets/Amber.png";
+import Amber from "../assets/Amber.png";
 import Footer from './Footer.js';
-import "./About.css";
+import "../css-files/About.css";
 
 
 function About() {

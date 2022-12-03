@@ -1,11 +1,9 @@
 import React from 'react';
+import { BrowserRouter as Router, Link } from "react-router-dom";
 import sotira from'../assets/sotira-main.png';
 import minds from'../assets/minds-main.png';
 import sidetrek from'../assets/sidetrek-main.png';
-import './Experience.css';
-import {
-  BrowserRouter as Router, Link
-} from "react-router-dom";
+import "../css-files/Experience.css";
 
 
 function Experience(props) {

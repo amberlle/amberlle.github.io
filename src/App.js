@@ -1,10 +1,7 @@
-import About from './About.js';
-import FbInternship from '../FbInternship.js';
-import Airbnb from './Airbnb.js';
-import Nickelodeon from '../Nickelodeon.js';
-import Home from './Home.js';
-import Work from './Work.js';
-import Working from './Working.js';;
+import About from './js-files/About.js';
+import Home from './js-files/Home.js';
+import Work from './js-files/Work.js';
+import Working from './js-files/Working.js';;
 import React, { useEffect, useState } from 'react';
 import {
   BrowserRouter as Router,
