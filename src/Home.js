@@ -8,6 +8,7 @@ import Footer from './Footer.js';
 import Experience from './components/Experience/Experience';
 import pinkcircle from './assets/pink-circle.png';
 import yellowcircle from './assets/yellow-circle.png';
+import logo from './assets/logo.png';
 import './App.css';
 
 
@@ -90,27 +91,13 @@ function Home() {
       </div>
       {/* <div className="landing-text-wrapper"> */}
         {/* <div className="landing-text-padding"/> */}
-        <div className="landing-text landing-text-slow">
-          Hello! I'm <p className="landing-text-red">Amber</p>.
+        <div>
+          <img className="center" src={logo} width="400" height="300"></img>
         </div>
-      {/* </div> */}
-      <div className="story-text-wrapper story-text-slow" data-rellax-zindex="5">
-          <div className="story-text">
-            My passions and learnings are best traced through the things I create
-            </div>
-      </div>
-      <div className="story-text-wrapper-2 story-text-slowish" data-rellax-zindex="5">
-          <div className="story-text-right">
-            and through the things I like to spend my time on.
-          </div>
-      </div>
-      <img className="yellow-circle circle-slow" src={yellowcircle}/>
-      <img className="yellow-circle-2 red-circle-slow" src={yellowcircle}/>
-      <img className="pink-circle circle-slow" src={pinkcircle}/>
-      <img className="pink-circle-2 circle-slow" src={pinkcircle}/>
-      <div className="list-text-wrapper background-text-slow" data-rellax-zindex="-1">
-        <div className="list-text" >Designer<br/>Developer<br/>Boba-Lover<br/>Doing yoga<br/>Meeting new people<br/>Reading<br/>Making cold brew<br/>Traveling<br/>Eating pizza bites</div>
-      </div>
+        <div className="header-title-wrap">
+          <h1 className="header">Hello, I'm Amber! 👋</h1>
+          <p className="description">I'm a UX Designer driven by human accesibility studying Data Science and Cognitive Science at UC Berkeley.</p>
+        </div>
       <Experience/>
       <Footer/>
       <div className="subtract"/>

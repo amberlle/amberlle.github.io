@@ -13,6 +13,7 @@ import skydeck from './assets/skydeck.png';
 import appa from './assets/appa.png';
 import mod from './assets/mod.png';
 import samsung from './assets/samsung.png';
+import minds from './assets/minds.png';
 
 
 function Work() {

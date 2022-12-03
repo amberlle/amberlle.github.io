@@ -5,6 +5,38 @@
   margin-top: -300px;
 }
 
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.company {
+  color: #000;
+  font-family: "Recoleta-Black", sans-serif;
+  font-size: 35px;
+  display: flex;
+  text-align: left;
+}
+
+.role {
+  color: #000;
+  font-family: Circular-Medium, sans-serif;
+  font-size: 25px;
+  display: flex;
+  text-align: left;
+}
+
+.description {
+  color: #000;
+  font-family: Circular-Medium, sans-serif;
+  font-size: 15px;
+  display: flex;
+  text-align: left;
+}
+
 @media (max-width: 900px) {
   .experience-wrapper {
     margin-top: -400px;
