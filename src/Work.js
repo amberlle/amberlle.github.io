@@ -6,11 +6,13 @@ import {
 } from "react-router-dom";
 import './Work.css';
 import Footer from './Footer.js';
-import airbnb from './assets/airbnb.png';
-import sidetrek from './assets/sidtrek.png';
-import nick from './assets/nick.png';
-import studentportal from './assets/student-portal.png';
-import vector from './assets/vector.png';
+import sidetrek from './assets/sidetrek.png';
+import moving from './assets/moving.png';
+import sotira from './assets/sotira.png';
+import skydeck from './assets/skydeck.png';
+import appa from './assets/appa.png';
+import mod from './assets/mod.png';
+import samsung from './assets/samsung.png';
 
 
 function Work() {
@@ -31,14 +33,14 @@ function Work() {
           </div>
       </div>
       <div className="work-card-container">
-          <WorkCard image={sidetrek} link="/airbnb" title="Reimagining the Minds+ Experience" description="UX Research // Product Design // Web Design"/>
-          <WorkCard image={nick} link="/nickelodeon" title="Moving with Virtual Reality" description="Product Design // UX Research // UX Design"/>
-          <WorkCard image={nick} link="/nickelodeon" title="The Samsung Experience for Gen-Z" description="UX Research // Business Strategy // Slide Decking"/>
-          <WorkCard image={nick} link="/nickelodeon" title="Sidetrek Homepage Redesign" description="Web Design // Web Development // Marketing"/>
-          <WorkCard image={nick} link="/nickelodeon" title="The Future of Furniture" description="Product Design // UX Research // User Testing"/>
-          <WorkCard image={nick} link="/nickelodeon" title="Improving Sotira's Features" description="UX Research // Beta Testing // Marketing"/>
-          <WorkCard image={nick} link="/nickelodeon" title="Berkeley SkyDeck Pitch Decks" description="Slide Decking // Business Strategy // Client Work"/>
-          <WorkCard image={nick} link="/nickelodeon" title="Brand Design for Appa Health" description="Brand Design // Social Media Marketing // User Testing"/>
+          <WorkCard image={minds} link="/nickelodeon" title="Reimagining the Minds+ Experience" description="UX Research // Product Design // Web Design"/>
+          <WorkCard image={moving} link="/nickelodeon" title="Moving with Virtual Reality" description="Product Design // UX Research // UX Design"/>
+          <WorkCard image={samsung} link="/nickelodeon" title="The Samsung Experience for Gen-Z" description="UX Research // Business Strategy // Slide Decking"/>
+          <WorkCard image={sidetrek} link="/nickelodeon" title="Sidetrek Homepage Redesign" description="Web Design // Web Development // Marketing"/>
+          <WorkCard image={mod} link="/nickelodeon" title="The Future of Furniture" description="Product Design // UX Research // User Testing"/>
+          <WorkCard image={sotira} link="/nickelodeon" title="Improving Sotira's Features" description="UX Research // Beta Testing // Marketing"/>
+          <WorkCard image={skydeck} link="/nickelodeon" title="Berkeley SkyDeck Pitch Decks" description="Slide Decking // Business Strategy // Client Work"/>
+          <WorkCard image={appa} link="/nickelodeon" title="Brand Design for Appa Health" description="Brand Design // Social Media Marketing // User Testing"/>
       </div>
       <Footer/>
     </div>

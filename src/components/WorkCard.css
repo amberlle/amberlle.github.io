@@ -1,5 +1,6 @@
 .card-photo {
   transition: all 0.4s;
+  height: 300px;
   width: 100%;
 }
 
