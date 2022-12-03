@@ -1,9 +1,10 @@
 import About from './About.js';
-import FbInternship from './FbInternship.js';
+import FbInternship from '../FbInternship.js';
 import Airbnb from './Airbnb.js';
-import Nickelodeon from './Nickelodeon.js';
+import Nickelodeon from '../Nickelodeon.js';
 import Home from './Home.js';
 import Work from './Work.js';
+import Working from './Working.js';;
 import React, { useEffect, useState } from 'react';
 import {
   BrowserRouter as Router,
@@ -35,6 +36,9 @@ function App() {
           </Route>
           <Route exact path="/work">
             <Work/>
+          </Route>
+          <Route exact path="/working">
+            <Working/>
           </Route>
         </Switch>
     </Router>

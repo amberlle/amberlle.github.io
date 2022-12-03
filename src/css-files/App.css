@@ -3,7 +3,7 @@ body {
 }
 
 ::selection {
-  background: #ffcdc1;
+  background: #e3eeff;
 }
 
 .arrow-icon {
@@ -50,30 +50,9 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  width: 65%;
-}
-
-.get-in-touch-text {
-  font-family: "Recoleta-Black", sans-serif;
-  font-size: 35px;
-  min-width: 350px;
-  padding-top: 60px;
-  z-index: 3;
-}
-
-.get-in-touch-details-text {
-  display: inline;
-  font-family: Circular-Book, sans-serif;
-  font-size: 16px;
-  font-weight: normal;
-}
-
-.get-in-touch-details-wrapper {
-  width: 55%;
-}
-
-.hidden {
-  display: none;
+  margin-top: 55px;
+  margin-right: -60px;
+  width: 300px;;
 }
 
 .landing-text {
@@ -103,12 +82,6 @@ body {
   }
 }
 
-.landing-text-red {
-  color: #ee6c4d;
-  display: inline;
-  margin: 0;
-}
-
 .landing-text-wrapper {
   display: flex;
   align-items: center;
@@ -135,9 +108,8 @@ body {
 }
 
 .link-text:hover {
-  color: #ee6c4d;
+  color: #8da4d6;
   cursor: pointer;
-  background-color: #ffe5df;
   border-radius: 3px;
 }
 
@@ -225,24 +197,6 @@ body {
   }
 }
 
-.story-text {
-  color: #ee6c4d;
-  font-family: Circular-Medium, sans-serif;
-  font-size: 30px;
-  min-width: 180px;
-  width: 40%;
-  text-align: left;
-}
-
-.story-text-right {
-  color: #ee6c4d;
-  font-family: Circular-Medium, sans-serif;
-  font-size: 30px;
-  min-width: 180px;
-  width: 70%;
-  text-align: right;
-}
-
 .header {
   color: #000;
   font-family: "Recoleta-Black", sans-serif;
@@ -266,16 +220,26 @@ body {
   display: flex;
 }
 
+.connected {
+  color: #8da4d6;
+  font-family: "Recoleta-Black", sans-serif;
+  font-size: 35px;
+  display: flex;
+  margin-left: -300px;
+  margin-right: 400px;
+  justify-content: left;
+}
+
 .description {
   animation-name: fadeIn;
   animation-duration: 2s;
   color: #000;
   font-family: Circular-Book, sans-serif;
-  font-size: 28px;
+  font-size: 20px;
   display: flex;
   height: 200px;
   margin: 0 150px;
-  width: 550px;
+  width: 500px;
   text-align: center;
 }
 
@@ -295,9 +259,3 @@ body {
 .style-typist {
   display: inline;
 }
-
-/* 
-@keyframes shrink {
-  from { font-size: 125px; line-height: 125px;}
-  to   { font-size: 50px; line-height: 50px;}
-} */

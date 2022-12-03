@@ -5,6 +5,8 @@
 }
 
 .about-content-wrapper {
+  animation-name: fadeIn;
+  animation-duration: 2s;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -14,10 +16,12 @@
 
 .about-image {
   width: 100%;
+  border-radius: 15px;
 }
 
 .about-image-wrapper {
   /* margin: 20px; */
+  margin-top: 95px;
   min-width: 200px;
   width: 30%;
 }
@@ -41,11 +45,11 @@
 }
 
 .about-header {
-  color: #ee6c4d;
+  color: #8da4d6;
   font-family: "Recoleta-Black";
   font-size: 35px;
-  margin-bottom: 40px;
-  margin-top: 20px;
+  margin-bottom: 25px;
+  margin-top: 5px;
 }
 
 .about-subheader {

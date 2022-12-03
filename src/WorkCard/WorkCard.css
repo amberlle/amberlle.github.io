@@ -46,10 +46,16 @@
 }
 
 .work-card-title:hover {
-  color: #8da4d6;
   border-radius: 5px;
   font-weight: 600;
   cursor: pointer;
+  background-color: #8da4d6;
+  background-image: linear-gradient(98deg, #8da4d6, #000);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
 }
 
 .work-card-wrapper {

@@ -1,5 +1,5 @@
 import React from 'react';
-import WorkCard from './WorkCard/WorkCard.js';
+import WorkCard from '../WorkCard/WorkCard.js';
 import {
   BrowserRouter as Router,
   Link
@@ -14,6 +14,7 @@ import appa from './assets/appa.png';
 import mod from './assets/mod.png';
 import samsung from './assets/samsung.png';
 import minds from './assets/minds.png';
+import Working from './Working';
 
 
 function Work() {
@@ -39,7 +40,7 @@ function Work() {
           <WorkCard image={samsung} link="/working" title="The Samsung Experience for Gen-Z" description="UX Research // Business Strategy // Slide Decking"/>
           <WorkCard image={sidetrek} link="/working" title="Sidetrek Homepage Redesign" description="Web Design // Web Development // Marketing"/>
           <WorkCard image={mod} link="/working" title="The Future of Furniture" description="Product Design // UX Research // User Testing"/>
-          <WorkCard image={sotira} link="/working" title="Improving Sotira's Features" description="UX Research // Beta Testing // Marketing"/>
+          <WorkCard image={sotira} link="/working" title="Enhancing Sotira's User Experience" description="UX Research // Beta Testing // Marketing"/>
           <WorkCard image={skydeck} link="/working" title="Berkeley SkyDeck Pitch Decks" description="Slide Decking // Business Strategy // Client Work"/>
           <WorkCard image={appa} link="/working" title="Brand Design for Appa Health" description="Brand Design // Social Media Marketing // User Testing"/>
       </div>

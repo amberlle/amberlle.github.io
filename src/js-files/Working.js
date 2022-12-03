@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import Footer from './Footer.js';
-import Experience from './Experience/Experience';
+import Experience from './Experience';
 import logo from './assets/logo.png';
-import './App.css';
+import './Working.css';
 
 
 function Working() {
@@ -23,14 +23,13 @@ function Working() {
             <Link to={{ pathname: "https://drive.google.com/file/d/1hFibJCCy0yENpEFW6eYxCKSRGOxRkF2n/view?usp=sharing" }} target="_blank" className="nav-bar-link">Resume</Link>
             </div>
         </div>
-            <div className="header-title-wrap">
-            <h1 className="header">Oops!</h1>
-            <p className="description">This page is currently a work-in-progress. Come back soon!</p>
-            </div>
+            <div className="working-wrap">
+            <p className="working-description">This page is currently a work-in-progress. Come back soon!</p>
+        </div>
         <Footer/>
         <div className="subtract"/>
         </div>
     );
-    }
+}
 
 export default Working;

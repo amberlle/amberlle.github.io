@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import Footer from './Footer.js';
-import Experience from './Experience/Experience';
+import Experience from './Experience';
 import logo from './assets/logo.png';
 import './App.css';
 
@@ -24,7 +24,7 @@ function Home() {
         </div>
         <div className="header-title-wrap">
           <h1 className="header">Hello, I'm Amber! 👋</h1>
-          <p className="description">I'm a UX Designer driven by human accesibility studying Data Science and Cognitive Science at UC Berkeley.</p>
+          <p className="description">I'm an interdisciplinary UX Designer studying Data Science and Cognitive Science @ UC Berkeley and striving to enhance digital experiences.</p>
         </div>
       <Experience/>
       <Footer/>
