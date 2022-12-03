@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
-import AboutPhoto from "./assets/about.jpg";
+import Amber from "./assets/Amber.png";
 import Footer from './Footer.js';
 import "./About.css";
 
@@ -18,13 +18,13 @@ function About() {
         </div>
       </div>
       <div className="about-content-wrapper">
-        <div className="about-image-wrapper"><img className="about-image" src={AboutPhoto}/></div>
+        <div className="about-image-wrapper"><img className="about-image" src={Amber}/></div>
         <div className="about-left-content">
           <div className="about-paragraph">hello!</div>
           <div className="about-header">I’m Amber.</div>
-          <div className="about-paragraph">Currently, I'm studying Computer Science, Political Economy, and Design at UC Berkeley. I'm driven by learning and growing as much as I can.</div>
+          <div className="about-paragraph">I'm a current second-year at the University of California, Berkeley pursuing a double major in Data Science (Domain Emphasis in Neuroscience) and Cognitive Sciecne, as well as the Berkeley certificate of Design Innovation.</div>
           <div className="about-paragraph">On campus, I've been teaching frontend web development and design at the <a href="https://wdd.io" className="highlight-text" target="_blank">Web Design DeCal</a>, leading a team as a project manager for <a href="https://codebase.berkeley.edu" className="highlight-text" target="_blank">Berkeley Codebase</a>, and working on pro-bono graphic design projects with <a href="https://innovativedesign.club/" className="highlight-text" target="_blank">Innovative Design</a>. I've also written a semester-long opinion column called <a href="https://www.dailycal.org/author/biancalee/" className="highlight-text" target="_blank">"Head in the Cloud"</a> on the implications of tech at The Daily Californian.</div>
-          <div className="about-paragraph">Last summer, I worked on Microsoft Teams integrations at <a href="https://coda.io/" className="highlight-text" target="_blank">Coda</a> as a <a href="https://fellows.kleinerperkins.com/meet-the-fellows/2021/" className="highlight-text" target="_blank">Kleiner Perkins engineering fellow</a>. I'm excited to rejoin the team after I graduate.</div>
+          <div className="about-paragraph">Growing up, I've immersed myself throughout multiple creative outlets and coming into college, I became exposed to the world of user experience and design.</div>
           <div className="about-paragraph">~</div>
           <div className="about-paragraph">I'm interested in design systems, information-mapping tools, building digital communities, and the inextricable nature of our social, economic, and political geographies. </div>
           <div className="about-subheader">Some of my favorite things</div>

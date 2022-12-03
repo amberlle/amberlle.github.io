@@ -1,7 +1,7 @@
 import React from 'react';
-import sotira from'../../assets/sotira-main.png';
-import minds from'../../assets/minds-main.png';
-import sidetrek from'../../assets/sidetrek-main.png';
+import sotira from'../assets/sotira-main.png';
+import minds from'../assets/minds-main.png';
+import sidetrek from'../assets/sidetrek-main.png';
 import './Experience.css';
 
 
@@ -18,13 +18,17 @@ function Experience(props) {
           </div>
           </div>
         <div class="column">
+          <div class="image">
           <img src={sotira}  width="85%"/>
+          </div>
         </div>
         </div>
 
         <div class="row">
         <div class="column">
+          <div class="image">
           <img src={minds}  width="85%"/>
+          </div>
         </div>
         <div class="column">
           <div className="position text">
@@ -46,7 +50,9 @@ function Experience(props) {
           </div>
           </div>
         <div class="column">
+          <div class="image">
           <img src={sidetrek}  width="85%"/>
+          </div>
         </div>
         </div>
     </div>

@@ -9,6 +9,8 @@
 }
 
 .work-card-container {
+  animation-name: fadeIn;
+  animation-duration: 2s;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

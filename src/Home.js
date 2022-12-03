@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import Footer from './Footer.js';
-import Experience from './components/Experience/Experience';
+import Experience from './Experience/Experience';
 import logo from './assets/logo.png';
 import './App.css';
 

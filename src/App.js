@@ -1,4 +1,4 @@
-import About from './About/About.js';
+import About from './About.js';
 import FbInternship from './FbInternship.js';
 import Airbnb from './Airbnb.js';
 import Nickelodeon from './Nickelodeon.js';

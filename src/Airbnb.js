@@ -14,9 +14,6 @@ import mapstories2 from './assets/map-stories-2.png';
 import triplog1 from './assets/trip-log-1.png';
 import triplog2 from './assets/trip-log-2.png';
 import triplog3 from './assets/trip-log-3.png';
-import tripplanning1 from './assets/trip-planning-1.png';
-import tripplanning2 from './assets/trip-planning-2.png';
-import tripplanning3 from './assets/trip-planning-3.png';
 import tripreflection1 from './assets/trip-reflection-1.png';
 import tripreflection2 from './assets/trip-reflection-2.png';
 import tripreflection3 from './assets/trip-reflection-3.png';
@@ -88,11 +85,6 @@ function Airbnb() {
             </div>
             <div className="proj-subheader">Trip Planning</div>
             Through integration with the Airbnb app, users can seamlessly add their Airbnb Stays and Airbnb Experiences to their Trip itinerary.           
-             <div className="proj-photo-wrapper">
-                <img className="proj-screenshot" src={tripplanning1}/>
-                <img className="proj-screenshot" src={tripplanning2}/>
-                <img className="proj-screenshot" src={tripplanning3}/>
-            </div>
             <div className="proj-subheader">Trip Reflection</div>
             While and after traveling, people can document their experiences, with the choice to share within their traveling group or with the public. If they choose the latter, other users will be able to discover and view these experiences for inspiration.                
             <div className="proj-photo-wrapper">

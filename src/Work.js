@@ -34,14 +34,14 @@ function Work() {
           </div>
       </div>
       <div className="work-card-container">
-          <WorkCard image={minds} link="/nickelodeon" title="Reimagining the Minds+ Experience" description="UX Research // Product Design // Web Design"/>
-          <WorkCard image={moving} link="/nickelodeon" title="Moving with Virtual Reality" description="Product Design // UX Research // UX Design"/>
-          <WorkCard image={samsung} link="/nickelodeon" title="The Samsung Experience for Gen-Z" description="UX Research // Business Strategy // Slide Decking"/>
-          <WorkCard image={sidetrek} link="/nickelodeon" title="Sidetrek Homepage Redesign" description="Web Design // Web Development // Marketing"/>
-          <WorkCard image={mod} link="/nickelodeon" title="The Future of Furniture" description="Product Design // UX Research // User Testing"/>
-          <WorkCard image={sotira} link="/nickelodeon" title="Improving Sotira's Features" description="UX Research // Beta Testing // Marketing"/>
-          <WorkCard image={skydeck} link="/nickelodeon" title="Berkeley SkyDeck Pitch Decks" description="Slide Decking // Business Strategy // Client Work"/>
-          <WorkCard image={appa} link="/nickelodeon" title="Brand Design for Appa Health" description="Brand Design // Social Media Marketing // User Testing"/>
+          <WorkCard image={minds} link="/working" title="Reimagining the Minds+ Experience" description="UX Research // Product Design // Web Design"/>
+          <WorkCard image={moving} link="/working" title="Moving with Virtual Reality" description="Product Design // UX Research // UX Design"/>
+          <WorkCard image={samsung} link="/working" title="The Samsung Experience for Gen-Z" description="UX Research // Business Strategy // Slide Decking"/>
+          <WorkCard image={sidetrek} link="/working" title="Sidetrek Homepage Redesign" description="Web Design // Web Development // Marketing"/>
+          <WorkCard image={mod} link="/working" title="The Future of Furniture" description="Product Design // UX Research // User Testing"/>
+          <WorkCard image={sotira} link="/working" title="Improving Sotira's Features" description="UX Research // Beta Testing // Marketing"/>
+          <WorkCard image={skydeck} link="/working" title="Berkeley SkyDeck Pitch Decks" description="Slide Decking // Business Strategy // Client Work"/>
+          <WorkCard image={appa} link="/working" title="Brand Design for Appa Health" description="Brand Design // Social Media Marketing // User Testing"/>
       </div>
       <Footer/>
     </div>
