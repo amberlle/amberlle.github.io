@@ -12,7 +12,7 @@ function Experience(props) {
       <div class="row">
         <div class="column">
           <div className="position text">
-            <Link to="/working" style={{ textDecoration: 'none', color: 'white' }}>
+            <Link to="/my-portfolio/working" style={{ textDecoration: 'none', color: 'white' }}>
             <h1 className="company">Sotira</h1>
             </Link>
           <h2 className="role">User Research and Social Media Intern</h2>
@@ -39,7 +39,7 @@ function Experience(props) {
         </div>
         <div class="column">
           <div className="position text-2">
-          <Link to="/working" style={{ textDecoration: 'none', color: 'white' }}>
+          <Link to="/my-portfolio/working" style={{ textDecoration: 'none', color: 'white' }}>
           <h1 className="company">Minds</h1>
           </Link>
           <h2 className="role">Product Design Consultant</h2>
@@ -52,7 +52,9 @@ function Experience(props) {
         <div class="row">
         <div class="column">
           <div className="position text">
-          <h1 className="company">Sidetrek</h1>
+          <Link to="/my-portfolio/working" style={{ textDecoration: 'none', color: 'white' }}>
+            <h1 className="company">Sidetrek</h1>
+            </Link>
           <h2 className="role">UI/UX Intern</h2>
           <p className="project-description">Redesigning and implementing a modernized homepage for AI/ML company Sidetrek to highlight garner new users.</p>
           <p className="skills">Web Design // Web Development // Marketing</p>

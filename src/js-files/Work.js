@@ -18,10 +18,10 @@ function Work() {
       <>
     <div>
       <div className="nav-bar-wrapper">
-      <Link to="/" className="nav-link-home">AL</Link>
+      <Link to="/my-portfolio" className="nav-link-home">AL</Link>
       <div className="nav-bar-container">
-        <Link to="/work" className="nav-bar-link">Work</Link>
-        <Link to="/about" className="nav-bar-link">About</Link>
+        <Link to="/my-portfolio/work" className="nav-bar-link">Work</Link>
+        <Link to="/my-portfolio/about" className="nav-bar-link">About</Link>
         <Link to={{ pathname: "https://drive.google.com/file/d/1hFibJCCy0yENpEFW6eYxCKSRGOxRkF2n/view?usp=sharing" }} target="_blank" className="nav-bar-link">Resume</Link>
         </div>
       </div>
