@@ -10,7 +10,7 @@ function About() {
   return (
     <div className="About">
       <div className="nav-bar-wrapper">
-        <Link to="/" className="nav-link-home">AL</Link>
+        <Link to="/my-portfolio" className="nav-link-home">AL</Link>
         <div className="nav-bar-container">
         <Link to="/my-portfolio/work" className="nav-bar-link">Work</Link>
         <Link to="/my-portfolio/about" className="nav-bar-link">About</Link>
