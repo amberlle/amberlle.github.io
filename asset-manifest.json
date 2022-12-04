@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.0bcf09c1.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.0b2acd15.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.0b2acd15.chunk.js.map",
-    "runtime-main.js": "/my-portfolio/static/js/runtime-main.368f45a6.js",
-    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.368f45a6.js.map",
-    "static/js/2.17d083ce.chunk.js": "/my-portfolio/static/js/2.17d083ce.chunk.js",
-    "static/js/2.17d083ce.chunk.js.map": "/my-portfolio/static/js/2.17d083ce.chunk.js.map",
-    "static/js/3.77fa5890.chunk.js": "/my-portfolio/static/js/3.77fa5890.chunk.js",
-    "static/js/3.77fa5890.chunk.js.map": "/my-portfolio/static/js/3.77fa5890.chunk.js.map",
+    "main.js": "/my-portfolio/static/js/main.41e1abd9.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.41e1abd9.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.6b2a618e.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.6b2a618e.js.map",
+    "static/js/2.c58ee050.chunk.js": "/my-portfolio/static/js/2.c58ee050.chunk.js",
+    "static/js/2.c58ee050.chunk.js.map": "/my-portfolio/static/js/2.c58ee050.chunk.js.map",
+    "static/js/3.fd21f815.chunk.js": "/my-portfolio/static/js/3.fd21f815.chunk.js",
+    "static/js/3.fd21f815.chunk.js.map": "/my-portfolio/static/js/3.fd21f815.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
     "static/css/main.0bcf09c1.chunk.css.map": "/my-portfolio/static/css/main.0bcf09c1.chunk.css.map",
-    "static/js/2.17d083ce.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.17d083ce.chunk.js.LICENSE.txt",
+    "static/js/2.c58ee050.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.c58ee050.chunk.js.LICENSE.txt",
     "static/media/Amber.a53bad40.png": "/my-portfolio/static/media/Amber.a53bad40.png",
     "static/media/index.css": "/my-portfolio/static/media/Recoleta-Black.4cddb7fc.ttf",
     "static/media/appa.8dd334b3.png": "/my-portfolio/static/media/appa.8dd334b3.png",
@@ -28,9 +28,9 @@
     "static/media/sotira.1227e1f3.png": "/my-portfolio/static/media/sotira.1227e1f3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.368f45a6.js",
-    "static/js/2.17d083ce.chunk.js",
+    "static/js/runtime-main.6b2a618e.js",
+    "static/js/2.c58ee050.chunk.js",
     "static/css/main.0bcf09c1.chunk.css",
-    "static/js/main.0b2acd15.chunk.js"
+    "static/js/main.41e1abd9.chunk.js"
   ]
 }
