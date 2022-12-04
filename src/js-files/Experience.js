@@ -22,7 +22,7 @@ function Experience(props) {
           </div>
         <div class="column">
           <div class="image">
-          <Link to="/working">
+          <Link to="/my-portfolio/working">
           <img src={sotira}  width="550px"/>
           </Link>
           </div>
@@ -32,7 +32,7 @@ function Experience(props) {
         <div class="row">
         <div class="column">
           <div class="image-2">
-          <Link to="/working">
+          <Link to="/my-portfolio/working">
           <img src={minds} width="550px"/>
           </Link>
           </div>
@@ -60,7 +60,7 @@ function Experience(props) {
           </div>
         <div class="column">
           <div class="image">
-          <Link to="/working" style={{ textDecoration: 'none'}}>
+          <Link to="/my-portfolio/working" style={{ textDecoration: 'none'}}>
           <img src={sidetrek} width="550px"/>
           </Link>
           </div>
