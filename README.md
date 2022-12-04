@@ -1,3 +1,3 @@
-# Personal Website 2022
+# personal website 2022
 
 welcome to my personal website!
