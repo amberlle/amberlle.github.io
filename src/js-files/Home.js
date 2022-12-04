@@ -19,12 +19,14 @@ function Home() {
       </div>
       {/* <div className="landing-text-wrapper"> */}
         {/* <div className="landing-text-padding"/> */}
+        <div className="introduction">
         <div>
           <img className="center" src={logo} width="400" height="300"></img>
         </div>
         <div className="header-title-wrap">
           <h1 className="header">Hello, I'm Amber! 👋</h1>
           <p className="description">I'm an interdisciplinary UX Designer studying Data Science and Cognitive Science @ UC Berkeley and striving to enhance digital experiences.</p>
+        </div>
         </div>
       <Experience/>
       <Footer/>

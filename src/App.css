@@ -22,17 +22,6 @@ body {
   z-index: 3;
 }
 
-.copied-text {
-  animation: slideOutDown;
-  background: #ffede8;
-  font-family: Circular-Book, sans-serif;
-  font-size: 16px;
-  margin: 10px 0;
-  padding: 5px 10px;
-  position: absolute;
-  max-width: max-content;
-}
-
 .find-me-on-wrapper {
   display: flex;
   flex-direction: column;
@@ -258,4 +247,10 @@ body {
 
 .style-typist {
   display: inline;
+}
+
+.introduction {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

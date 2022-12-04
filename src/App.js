@@ -12,7 +12,6 @@ import './App.css';
 
 
 function App() {
-  // const backgroundFontSize = useScrollChange();
   return (
     <Router>
     <Switch>
@@ -21,15 +20,6 @@ function App() {
           </Route>
           <Route exact path="/">
             <Home/>
-          </Route>
-          <Route exact path="/fb">
-            <FbInternship/>
-          </Route>
-          <Route exact path="/airbnb">
-            <Airbnb/>
-          </Route>
-          <Route exact path="/nickelodeon">
-            <Nickelodeon/>
           </Route>
           <Route exact path="/work">
             <Work/>
