@@ -6,6 +6,8 @@ import '../css-files/Working.css';
 
 function Working() {
     return (
+        <>
+        <div>
         <div className="App">
         <div className="nav-bar-wrapper">
         <Link to="/" className="nav-link-home">AL</Link>
@@ -21,6 +23,8 @@ function Working() {
         <Footer/>
         <div className="subtract"/>
         </div>
+        </div>
+        </>
     );
 }
 
