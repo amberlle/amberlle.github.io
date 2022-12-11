@@ -5,12 +5,6 @@ import '../css-files/Working.css';
 
 
 function Working() {
-    useEffect(() => {
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        });
-    });
     return (
         <div className="App">
         <div className="nav-bar-wrapper">
