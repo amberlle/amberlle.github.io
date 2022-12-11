@@ -5,21 +5,8 @@ import {
 import {CallMade} from '@material-ui/icons';
 var classNames = require('classnames');
 
-function FbInternship() {
+function Footer() {
   const [hidden, setHidden] = useState(true);
-
-  function handleClick() {
-    setHidden(false);
-    var textField = document.createElement('textarea');
-    textField.innerText = "bianca.lee@berkeley.edu";
-    document.body.appendChild(textField);
-    textField.select();
-    document.execCommand('copy');
-    textField.remove()
-    const element = document.querySelector('.copied-text');
-    element.classList.add('animate__animated', 'animate__slideOutDown');
-    setTimeout(() => setHidden(true), 5000);
-  };
 
   return (
 <div className="contact-wrapper" data-rellax-zindex="5">
@@ -43,4 +30,4 @@ function FbInternship() {
   );
 }
 
-export default FbInternship;
+export default Footer;

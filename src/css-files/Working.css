@@ -84,13 +84,14 @@
     display: flex;
     height: 200px;
     margin: 0 150px;
+    margin-top: 50px;
     width: 600px;
     text-align: center;
   }
   
   .working-wrap {
     margin-top: 250px;
-    margin-bottom: 80px;
+    margin-bottom: 150px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

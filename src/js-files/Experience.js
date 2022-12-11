@@ -12,7 +12,7 @@ function Experience(props) {
       <div class="row">
         <div class="column">
           <div className="position text">
-            <Link to="/my-portfolio/working" style={{ textDecoration: 'none', color: 'white' }}>
+            <Link to="/working" style={{ textDecoration: 'none', color: 'white' }}>
             <h1 className="company">Sotira</h1>
             </Link>
           <h2 className="role">User Research and Social Media Intern</h2>
@@ -22,7 +22,7 @@ function Experience(props) {
           </div>
         <div class="column">
           <div class="image">
-          <Link to="/my-portfolio/working">
+          <Link to="/working">
           <img src={sotira}  width="550px"/>
           </Link>
           </div>
@@ -32,14 +32,14 @@ function Experience(props) {
         <div class="row">
         <div class="column">
           <div class="image-2">
-          <Link to="/my-portfolio/working">
+          <Link to="/working">
           <img src={minds} width="550px"/>
           </Link>
           </div>
         </div>
         <div class="column">
           <div className="position text-2">
-          <Link to="/my-portfolio/working" style={{ textDecoration: 'none', color: 'white' }}>
+          <Link to="/working" style={{ textDecoration: 'none', color: 'white' }}>
           <h1 className="company">Minds</h1>
           </Link>
           <h2 className="role">Product Design Consultant</h2>
@@ -52,7 +52,7 @@ function Experience(props) {
         <div class="row">
         <div class="column">
           <div className="position text">
-          <Link to="/my-portfolio/working" style={{ textDecoration: 'none', color: 'white' }}>
+          <Link to="/working" style={{ textDecoration: 'none', color: 'white' }}>
             <h1 className="company">Sidetrek</h1>
             </Link>
           <h2 className="role">UI/UX Intern</h2>
@@ -62,7 +62,7 @@ function Experience(props) {
           </div>
         <div class="column">
           <div class="image">
-          <Link to="/my-portfolio/working" style={{ textDecoration: 'none'}}>
+          <Link to="/working" style={{ textDecoration: 'none'}}>
           <img src={sidetrek} width="550px"/>
           </Link>
           </div>

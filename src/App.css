@@ -192,7 +192,7 @@ body {
   font-size: 35px;
   display: flex;
   height: 200px;
-  margin: 0 150px;
+  margin: 0 175px;
   margin-bottom: -125px;
   animation-name: fadeIn;
   animation-duration: 2s;
@@ -253,4 +253,5 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 15px;
 }

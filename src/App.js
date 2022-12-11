@@ -15,16 +15,16 @@ function App() {
   return (
     <Router>
     <Switch>
-          <Route exact path="/my-portfolio/about">
+          <Route exact path="/about">
             <About/>
           </Route>
-          <Route exact path="/my-portfolio">
+          <Route exact path="/">
             <Home/>
           </Route>
-          <Route exact path="/my-portfolio/work">
+          <Route exact path="/work">
             <Work/>
           </Route>
-          <Route exact path="/my-portfolio/working">
+          <Route exact path="/working">
             <Working/>
           </Route>
     </Switch>
