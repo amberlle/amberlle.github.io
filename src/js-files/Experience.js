@@ -56,7 +56,7 @@ function Experience(props) {
             <h1 className="company">Sidetrek</h1>
             </Link>
           <h2 className="role">UI/UX Intern</h2>
-          <p className="project-description">Redesigning and implementing a modernized homepage for AI/ML company Sidetrek to highlight garner new users.</p>
+          <p className="project-description">Redesigning and implementing a modernized homepage for AI/ML company to showcase their value proposition.</p>
           <p className="skills">Web Design // Web Development // Marketing</p>
           </div>
           </div>

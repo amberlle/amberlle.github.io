@@ -25,7 +25,7 @@ function Home() {
         </div>
         <div className="header-title-wrap">
           <h1 className="header">Hello, I'm Amber! 👋</h1>
-          <p className="description">I'm an interdisciplinary UX Designer studying Data Science and Cognitive Science @ UC Berkeley and striving to enhance digital experiences.</p>
+          <p className="description">I'm an interdisciplinary user-centered designer studying Data Science and Cognitive Science @ UC Berkeley and striving to enhance digital experiences.</p>
         </div>
         </div>
       <Experience/>
