@@ -26,6 +26,9 @@ function Footer() {
             </div>
           </div>
           </div>
+          <div className="footer-text">
+          © 2022 designed and coded by amber le
+          </div>
         </div>
   );
 }
